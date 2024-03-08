@@ -1,0 +1,54 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	font-family: Arial, Verdana, sans-serif;
+	background-color: #252422;
+}
+
+.calculator {
+	background-color: #fffcf2;
+	padding: 32px; 
+	border-radius: 22px;
+	margin: 64px 0; 
+	width: 400px;
+}
+
+.calculator__title {
+	color: #eb5e28;
+	margin: 0 0 16px 0; 
+}
+
+.field {
+	display: flex;
+	align-items: center;
+	margin-bottom: 24px;
+
+	.field__label {
+		flex: 0 0 20%;
+		cursor: pointer;
+		font-size: 18px;
+	}
+
+	.field__input {
+		flex: 1;
+		padding: 6px; 
+		font-size: 18px; 
+	}
+}
+
+#Sumbit {
+	background-color: #403d39;
+	color: white;
+	border: none;
+	padding: 16px 22.4px; 
+	font-size: 18px; 
+	float: right;
+}
+
+.info {
+	clear: both;
+	display: none;
+	font-size: 22.4px; 
+}

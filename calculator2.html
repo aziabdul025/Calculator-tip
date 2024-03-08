@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator Tip</title>
+	<link rel="stylesheet" href="calculator2.css">
+</head>
+<body>
+	<div class="calculator">
+	<h1 class="calculator__title">Tip Calculator</h1>
+	<div class="field">
+		<label for="amount" class="field__label">Harga</label>
+		<input type="text" name="amount" id="amount" placeholder="$" class="field__input">
+		</input>
+	</div>
+	<div class="field">
+		<label for="tip" class="field__label">Tip</label>
+		<select name="tip" id="tip" class="field__input">
+			<option value="0" selected>No Tip</option>
+			<option value="10">10% 😒</option>
+			<option value="15">15% 🙂</option>
+			<option value="20">20% 🥺</option>
+		</select>
+	</div>
+	<div class="field">
+		<label for="people" class="field__label">Jumlah Orang</label>
+		<input type="number" value="1" min="1" step="1" id="people" class="field__input">
+	</div>
+	<button id="Sumbit">Sumbit</button>
+	<div class="info">
+		<p class="info__tip">Tip</p>
+		<p class="info__total">Jumlah Total Bayar</p>
+	</div>
+</div>
+	<script src="calculator2.js"></script>
+</body>
+</html>
+
+
+   
